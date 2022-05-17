@@ -1,0 +1,22 @@
+main{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.valasz{
+    width: 100%;
+    display: flex;
+    
+}
+
+.kerdes{
+    background-color: brown;
+    color: darkkhaki;
+}
+
+@media only screen and (max-width: 600px) {
+    .valasz{
+        flex-direction: row;
+    }
+  }
